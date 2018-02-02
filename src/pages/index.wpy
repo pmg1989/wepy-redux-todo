@@ -1,0 +1,40 @@
+<style lang="less">
+</style>
+<template>
+  <div>
+    hello world !!!
+  </div>
+</template>
+
+<script>
+  import wepy from 'wepy'
+  import { connect } from 'wepy-redux'
+
+  @connect({
+  })
+  export default class Index extends wepy.page {
+    config = {
+      navigationBarTitleText: 'test'
+    }
+    components = {
+    }
+
+    data = {
+    }
+
+    computed = {
+    }
+
+    methods = {
+    }
+
+    onLoad() {
+      // this.$parent.getUserInfo(userInfo => {
+      //   if (userInfo) {
+      //     this.userInfo = userInfo
+      //   }
+      //   this.$apply()
+      // })
+    }
+  }
+</script>
